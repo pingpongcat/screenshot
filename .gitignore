@@ -1,0 +1,26 @@
+# Ignoruj folder build
+/build/
+
+# Ignoruj pliki obiektowe, archiwalne i biblioteki
+*.o
+*.a
+*.so
+
+# Ignoruj pliki tymczasowe
+*.swp
+*~
+*.bak
+
+# Ignoruj pliki generowane przez systemy budowania
+Makefile
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Ignoruj pliki generowane przez IDE
+.idea/
+*.user
+*.suo
+*.sdf
+ipch/
+.vs/
